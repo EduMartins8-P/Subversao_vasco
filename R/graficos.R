@@ -13,7 +13,7 @@ dados_grafico <- dados %>%
 
 
 #SUBVERSAO DAS EXPECTATIVAS DO MERCADO
-ggplot(dados, aes(x = subversao, fill = subversao)) +
+grafico1 <- ggplot(dados, aes(x = subversao, fill = subversao)) +
   
   #tamanho das barras
   geom_bar(width = 0.3) +
@@ -28,7 +28,8 @@ ggplot(dados, aes(x = subversao, fill = subversao)) +
         round(after_stat(prop) * 100, 1),
         "%)"
       ),
-      group = 1
+      group = 1,
+      fill = NULL
     ),
     vjust = -0.5
   ) +
@@ -78,7 +79,7 @@ ggplot(dados, aes(x = subversao, fill = subversao)) +
 
 #DISTRIBUICAO DE SUBVERSOES
 
-ggplot(dados_grafico, aes(x = resultado, y = n, fill = subversao)) +
+grafico2 <- ggplot(dados_grafico, aes(x = resultado, y = n, fill = subversao)) +
   
   # Barras lado a lado
   geom_col(position = "dodge", width = 0.6) +
@@ -91,7 +92,8 @@ ggplot(dados_grafico, aes(x = resultado, y = n, fill = subversao)) +
         " (",
         round(porcentagem * 100, 1),
         "%)"
-      )
+      ),
+      hjust = ifelse(subversao, 0.2, 0.8)
     ),
     position = position_dodge(width = 0.6),
     vjust = -0.5
@@ -137,7 +139,7 @@ ggplot(dados_grafico, aes(x = resultado, y = n, fill = subversao)) +
 
 
 #IMPLICANCIA
-ggplot(dados, aes(x = rodada, y = razao, color = subversao)) +
+grafico3 <- ggplot(dados, aes(x = rodada, y = razao, color = subversao)) +
   
   #Pontos no grafico
   geom_point(
@@ -218,3 +220,27 @@ ggplot(dados, aes(x = rodada, y = razao, color = subversao)) +
     
     legend.position = "top"
   )
+
+#criacao dos graficos em png
+ggsave(
+  "../plots/grafico1.png",
+  plot = grafico1,
+  width = 8,
+  height = 6,
+  dpi = 300
+)
+ggsave(
+  "../plots/grafico2.png",
+  plot = grafico2,
+  width = 8,
+  height = 6,
+  dpi = 300
+)
+ggsave(
+  "../plots/grafico3.png",
+  plot = grafico3,
+  width = 8,
+  height = 6,
+  dpi = 300
+)
+
