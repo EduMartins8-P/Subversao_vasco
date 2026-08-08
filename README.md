@@ -92,4 +92,12 @@ Mostra a distribuição das partidas ao longo das 38 rodadas, relacionando a `ra
 
 ## Limitações
 
+Esta análise possui algumas limitações. A principal é o número de partidas analisadas, restrito aos 38 jogos do Vasco no Campeonato Brasileiro de 2025. Dessa forma, os resultados representam o comportamento observado nessa temporada e não permitem generalizar a existência de uma tendência para outras temporadas.
+
+Além disso, a classificação de subversão depende dos critérios definidos neste projeto, especialmente no caso dos empates, nos quais foi adotado um limite mais restritivo para considerar que havia uma expectativa clara de vitória ou derrota.
+
+A `razao` também considera apenas as odds de vitória e derrota do Vasco. A odd de empate não é utilizada diretamente nesse cálculo, embora tenha sido coletada e esteja disponível no conjunto de dados.
+
+Por fim, esta é uma análise descritiva e, portanto, os resultados não permitem afirmar que o Vasco tenha uma tendência estatisticamente comprovada de contrariar as expectativas do mercado. O objetivo é quantificar e visualizar o comportamento observado a partir dos dados disponíveis.
+
 ## Conclusão
