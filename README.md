@@ -70,6 +70,26 @@ As subversões ocorreram em quantidades consideráveis tanto quando o Vasco era 
 
 ## Visualizações
 
+As visualizações foram desenvolvidas em ggplot2 e têm como objetivo apresentar diferentes aspectos da relação entre as expectativas pré-jogo e os resultados do Vasco.
+
+**Subversão das Expectativas do Mercado**
+
+Mostra a quantidade e a proporção de partidas classificadas como subversões e não subversões.
+
+![Subversão das Expectativas do Mercado](plots/grafico1.png)
+
+**Resultados por Ocorrência de Subversão**
+
+Mostra como as vitórias, empates e derrotas se distribuem entre partidas classificadas como subversões e não subversões.
+
+![Resultados por Ocorrência de Subversão](plots/grafico2.png)
+
+**Vasco é implicante?**
+
+Mostra a distribuição das partidas ao longo das 38 rodadas, relacionando a `razao` das odds com a ocorrência de subversões.
+
+![Vasco é implicante?](plots/grafico3.png)
+
 ## Limitações
 
 ## Conclusão
