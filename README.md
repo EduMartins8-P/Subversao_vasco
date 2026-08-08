@@ -10,6 +10,22 @@
 
 ## Dados
 
+  As informações foram coletadas no SofaScore e incluem as odds pré-jogo para vitória, derrota e empate, além do resultado das partidas e outras informações sobre os jogos.
+
+  O conjunto de dados está armazenado no arquivo oddVasco.csv, dentro da pasta data/.
+
+  As variáveis presentes no conjunto de dados são:
+
+  rodada: rodada do Campeonato Brasileiro.
+  mandante: indica se o Vasco foi mandante (S) ou visitante (N).
+  oddVitoria: odd pré-jogo para vitória do Vasco.
+  oddDerrota: odd pré-jogo para derrota do Vasco.
+  oddEmpate: odd pré-jogo para empate.
+  vermelho: indica a ocorrência de expulsão na partida.
+  resultado: resultado do Vasco, sendo V (vitória), E (empate) ou D (derrota).
+
+  Nesta primeira análise, utilizei principalmente as odds pré-jogo e o resultado das partidas. As informações sobre mando de campo e expulsões foram mantidas no conjunto de dados para possibilitar análises futuras.
+
 ## Metodologia
 
 ## Resultados
