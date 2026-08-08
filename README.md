@@ -101,3 +101,11 @@ A `razao` também considera apenas as odds de vitória e derrota do Vasco. A odd
 Por fim, esta é uma análise descritiva e, portanto, os resultados não permitem afirmar que o Vasco tenha uma tendência estatisticamente comprovada de contrariar as expectativas do mercado. O objetivo é quantificar e visualizar o comportamento observado a partir dos dados disponíveis.
 
 ## Conclusão
+
+Os resultados mostram que a percepção de que o Vasco costuma contrariar as expectativas pré-jogo não é apenas uma impressão isolada. Das 38 partidas analisadas, **16 foram classificadas como subversões, representando 42,1% dos jogos**.
+
+Embora esse percentual seja inferior à metade, ainda representa uma quantidade considerável de resultados que contrariaram as expectativas do mercado. As subversões ocorreram tanto quando o Vasco era considerado favorito quanto quando era visto como azarão, além de também aparecerem em empates com expectativas claras de vitória ou derrota.
+
+Os dados não permitem afirmar que o Vasco seja consistentemente contrário às expectativas, **mas os 42,1% de subversões tornam essa percepção uma hipótese interessante**, podendo indicar um comportamento particularmente imprevisível ou caótico da equipe.
+
+Como evolução do projeto, pretendo automatizar a coleta dos dados para analisar outras temporadas e, futuramente, comparar o comportamento do Vasco com o de outros clubes.
