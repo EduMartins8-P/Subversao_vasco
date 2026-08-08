@@ -59,6 +59,15 @@ As visualizações foram desenvolvidas com ggplot2, utilizando os dados preparad
 
 ## Resultados
 
+Dos 38 jogos analisados, 16 foram classificados como subversões das expectativas pré-jogo, enquanto 22 não foram. Isso corresponde a:
+
+- **16 subversões (42,1%)**
+- **22 jogos sem subversão (57,9%)**
+
+Ao analisar os resultados das partidas, das 13 vitórias do Vasco, mais da metade foram classificadas como subversões! Vencendo 7 vezes, correspondendo a **53,8% das vitórias**. Entre as 19 derrotas, 6 foram classificadas como subversões, correspondendo a **31,6% das derrotas**. Dos 6 empates, 3 foram classificados como subversões (**50% dos empates**).
+
+As subversões ocorreram em quantidades consideráveis tanto quando o Vasco era visto como favorito quanto quando era visto como azarão e até mesmo nos resultados de empate onde havia clara expectativa de vitoria ou derrota, não se concentrando em apenas um dos lados das expectativas pré-jogo.
+
 ## Visualizações
 
 ## Limitações
