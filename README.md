@@ -109,3 +109,13 @@ Embora esse percentual seja inferior à metade, ainda representa uma quantidade 
 Os dados não permitem afirmar que o Vasco seja consistentemente contrário às expectativas, **mas os 42,1% de subversões tornam essa percepção uma hipótese interessante**, podendo indicar um comportamento particularmente imprevisível ou caótico da equipe.
 
 Como evolução do projeto, pretendo automatizar a coleta dos dados para analisar outras temporadas e, futuramente, comparar o comportamento do Vasco com o de outros clubes.
+
+## Trivia
+
+Algumas curiosidades encontradas durante a exploração dos dados não tiveram impacto direto na análise, mas considero interessantes para meus semelhantes nerds de estatística de plantão.
+
+- Na 19ª rodada, contra o Atlético-MG, as odds de vitória e derrota do Vasco eram **exatamente iguais**: 3,50. Com a razao em exatamente 1,00, a partida foi basicamente desconsiderada na classificação, já que não havia tendência para vitória, derrota e sequer ao empate!
+- Os dois jogos contra o Flamengo estão entre as três maiores odds de vitória do Vasco em toda a temporada. Mesmo com expectativas tão desfavoráveis, ambas as partidas terminaram em empate.
+- A maior odd de derrota do Vasco na temporada também não foi suficiente para evitar uma subversão: contra o Juventude, o Vasco tinha uma odd de derrota de 6,50, mas acabou perdendo por 3 a 1.
+- Entre as rodadas 20 e 33, há uma concentração visualmente notável de subversões. Esse período também coincide com uma fase especial para os vascaínos com boa memória, em que o Vasco apresentou uma sequência de bons resultados no campeonato. 
+- Já entre as rodadas 34 e 38, observa-se uma concentração maior de partidas que seguiram as expectativas pré-jogo. Período em que o Vasco ~infelizmente~ voltou a desempenhar mal.
